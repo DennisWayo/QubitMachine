@@ -59,8 +59,15 @@ Simulate our solutions by
 
 add video here
 
-## Bonus: VQLS Model in QML
+## Challenge Extension 1:
+**S-V Algorithm**
+
+## Challenge Extension 2:
+ - **VQLS Vs SV Model in QML**
 Our team took the challenge further by incorporating the VQLS code into quantum machine learning to simulate a real dataset. 
+
+ - **Validation**
+xxx
 
 ## Contributors
  - Dennis Wayo
@@ -70,7 +77,7 @@ Our team took the challenge further by incorporating the VQLS code into quantum 
  - Paul Dirac
 
 ## Acknoledgement
-xxxx
+We We acknoledge the efforts of the orgaisers of QPoland Global Quantum Hackathon, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
 
 ## License
 MIT
