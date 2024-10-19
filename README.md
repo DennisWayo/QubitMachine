@@ -1,4 +1,6 @@
 # QubitMachine
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Welcome! to our Hackathon Quantum Machine Learning Track Challenge Provided by QPoland Global Quantum Hackathon
 
 ## Background
@@ -47,8 +49,8 @@ To solve the equation
 ```
 we minimized the expectation value of $$\mathbf{A}$$ over a trial state $$\vec{x}$$. This forms the cost function of the variational quantum eigensolver (VQE).
 
-4. Run the Simulation:Execute the algorithm using a state-vector simulator. This is useful for calculating the exact wavefunction and is ideal for prototyping before running on a real quantum device.
-5. CX-gate Count: To ensure the solution meets the challenge’s requirements, we must also compute the number of CX gates used in the quantum circuit. This can be done after generating the circuit.
+4. Run the Simulation:Execute the algorithm using a state-vector simulator. This was implemented to calculating the exact wavefunction which was ideal for prototyping before running on a real quantum device.
+5. CX-gate Count: We ensured the solution meets the challenge’s requirements, we also computed the number of CX gates used in the quantum circuit. This was done after generating the circuit.
 
 ## Solutions: 
 
@@ -56,6 +58,9 @@ Simulate our solutions by
 - downloading  our qubitmachine_model.py file, 
 - open Classiq interface online, and 
 - upload the model, synthesize and execute. 
+
+## Bonus: VQLS Model in QML
+Our team took the challenge further by incorporating the VQLS code into quantum machine learning to simulate a real dataset. 
 
 ## Contributors
  - Dennis Wayo
