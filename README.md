@@ -1,12 +1,12 @@
 # QubitMachine
 Welcome! to our Hackathon Challenge provided by QPoland Global Quantum Hackathon
 
-> ## Problem Background
+> [## Problem Background]
 
 Solving a linear system that grows in size becomes more difficult. In reference to Carlos Bravo-Prietos' Variational Quantum Linear Algorithm Solver
 
 
-> ## Challenge Objectives
+## Challenge Objectives
 
 This guide supports our driven solution to the challenge given using Classiq which involves Pauli matrices and quantum program creation:
 
@@ -15,7 +15,7 @@ We developed a quantum program that computes the equation involving Pauli matric
 2. Execute the quantum algorithm using a state-vector simulator.
 3. Output the program’s CX-gate count.
 
-> ## Our Methods:
+## Our Methods:
  
 1. Defining the Problem and Setting up the Ansatz: We expressed the given operator (Pauli-X and Pauli-Z matrices) as part of the quantum ansatz.
 
