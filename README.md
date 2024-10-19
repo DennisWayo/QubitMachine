@@ -4,6 +4,7 @@ Welcome! to our Hackathon Challenge provided by QPoland Global Quantum Hackathon
 > Problem Background
 
 Solving a linear system that grows in size becomes more difficult
+
 In reference to Carlos Bravo-Prietos' Variational Quantum Linear Algorithm Solver
 
 
