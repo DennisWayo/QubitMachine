@@ -9,12 +9,17 @@ The VQLS leverages the power of quantum computing combined with variational prin
 
 One of the major benefits of VQLS is its scalability. The variational approach can handle larger systems with fewer qubits by compressing the state space and approximating the solution. This makes VQLS a promising tool for applications in quantum machine learning, materials science, and other fields where solving large linear systems is essential.
 
-In summary, the variational quantum linear solver stands out as a key development for harnessing the current generation of quantum computers, allowing for efficient and scalable solutions to linear systems that classical methods struggle to compute effectively.
-## Challenge Objectives
+Variational quantum linear solver stands out as a key development for harnessing the current generation of quantum computers, allowing for efficient and scalable solutions to linear systems that classical methods struggle to compute effectively.
 
-This guide supports our driven solution to the challenge given using Classiq which involves Pauli matrices and quantum program creation:
 
-We developed a quantum program that computes the equation involving Pauli matrices over qubits, and satisfies the requirements: 
+## Challenge 
+
+- Remodel or reproduce Carlos Bravo-Pireto's Variational Quantum Linear Solver
+
+## Objectives
+
+We aimed at developing a quantum program that computes the equation involving Pauli matrices over qubits, and satisfies the requirements: 
+
 1. A correct cost function and quantum ansatz.
 2. Execute the quantum algorithm using a state-vector simulator.
 3. Output the program’s CX-gate count.
@@ -28,6 +33,8 @@ We developed a quantum program that computes the equation involving Pauli matric
 ```math
 \mathbf{A} = \sum_{i=1}^{10} \hat{X}i + 0.1 \sum{j=1}^{9} \hat{Z}j \hat{Z}{j+1} + \mathbb{I} Where: • \hat{X}_i acts on the i-th qubit. • \hat{Z}j \hat{Z}{j+1} represents interactions between consecutive qubits. 
 ```
+
+$\mathbf{A} = \sum_{i=1}^{10} \hat{X}i + 0.1 \sum{j=1}^{9} \hat{Z}j \hat{Z}{j+1} + \mathbb{I}$
 
 2. Creating the Ansatz Using Classiq’s Interface: We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. 
 3. Define the Cost Function:
