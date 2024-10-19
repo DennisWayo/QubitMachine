@@ -40,9 +40,9 @@ Where:
 • \hat{Z}j \hat{Z}{j+1} represents interactions between consecutive qubits. 
 ```
 
-```math
+
 ![wayo_check](https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
-```
+
 ![grad_desc_url](https://latex.codecogs.com/gif.latex?w_{i&plus;1}&space;=&space;w_i&space;-&space;\epsilon&space;\cdot&space;\left.\frac{dL}{dw}\right|_{w_i})
 
 $$\mathbf{A} = \sum_{i=1}^{10} \hat{X}i + 0.1 \sum{j=1}^{9} \hat{Z}j \hat{Z}{j+1} + \mathbb{I}$$
