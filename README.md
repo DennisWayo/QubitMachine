@@ -16,7 +16,7 @@ Variational quantum linear solver stands out as a key development for harnessing
 
 ## Challenge 
 Quantum Machine Learning: Solving Linear Systems of Equations
-- Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver
+- Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver using Classiq software
 <https://quantum-journal.org/papers/q-2023-11-22-1188/>
 
 ## Objectives
@@ -59,6 +59,8 @@ Simulate our solutions by
 - downloading  our qubitmachine_model.py file, 
 - open Classiq interface online, and 
 - upload the model, synthesize and execute. 
+
+add video here
 
 ## Bonus: VQLS Model in QML
 Our team took the challenge further by incorporating the VQLS code into quantum machine learning to simulate a real dataset. 
