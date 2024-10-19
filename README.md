@@ -41,7 +41,7 @@ Where:
 ```
 
 ```math
-https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I}
+![wayo check](https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
 ```
 
 
