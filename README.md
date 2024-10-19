@@ -62,9 +62,7 @@ Simulate our solutions by
 
 add video here
 
-**The Cauchy-Schwarz Inequality**
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
+<img src="https://render.githubusercontent.com/render/math?math=e^{i\pi}=-1">
 
 ## Bonus: VQLS Model in QML
 Our team took the challenge further by incorporating the VQLS code into quantum machine learning to simulate a real dataset. 
