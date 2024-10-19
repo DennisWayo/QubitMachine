@@ -15,8 +15,9 @@ Variational quantum linear solver stands out as a key development for harnessing
 
 
 ## Challenge 
-
-- Remodel or reproduce Carlos Bravo-Pireto's Variational Quantum Linear Solver
+Quantum Machine Learning: Solving Linear Systems of Equations
+- Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver
+<https://quantum-journal.org/papers/q-2023-11-22-1188/>
 
 ## Objectives
 
@@ -68,3 +69,9 @@ Our team took the challenge further by incorporating the VQLS code into quantum 
  - Meenashree Khanal
  - Bhasutkar
  - Paul Dirac
+
+## Acknoledgement
+xxxx
+
+## License
+MIT
