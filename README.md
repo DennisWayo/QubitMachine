@@ -40,6 +40,11 @@ Where:
 • \hat{Z}j \hat{Z}{j+1} represents interactions between consecutive qubits. 
 ```
 
+```math
+https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I}
+```
+
+
 $$\mathbf{A} = \sum_{i=1}^{10} \hat{X}i + 0.1 \sum{j=1}^{9} \hat{Z}j \hat{Z}{j+1} + \mathbb{I}$$
 
 2. Creating the Ansatz Using Classiq’s Interface: We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. 
