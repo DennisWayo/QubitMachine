@@ -41,7 +41,7 @@ Where:
 ```
 
 ```math
-![wayo check](https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
+![wayo_check](https://latex.codecogs.com/svg.image?\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
 ```
 ![grad_desc_url](https://latex.codecogs.com/gif.latex?w_{i&plus;1}&space;=&space;w_i&space;-&space;\epsilon&space;\cdot&space;\left.\frac{dL}{dw}\right|_{w_i})
 
@@ -49,7 +49,8 @@ $$\mathbf{A} = \sum_{i=1}^{10} \hat{X}i + 0.1 \sum{j=1}^{9} \hat{Z}j \hat{Z}{j+1
 
 2. Creating the Ansatz Using Classiq’s Interface: We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. 
 3. Define the Cost Function:
-To solve the equation 
+To solve the equation, 
+
 ```math
 \mathbf{A} \vec{x} = 0, 
 ```
@@ -66,8 +67,6 @@ Simulate our solutions by
 - upload the model, synthesize and execute. 
 
 add video here
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i\pi}=-1">
 
 ## Bonus: VQLS Model in QML
 Our team took the challenge further by incorporating the VQLS code into quantum machine learning to simulate a real dataset. 
