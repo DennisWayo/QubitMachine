@@ -2,11 +2,13 @@
 Welcome! to our Hackathon Challenge provided by QPoland Global Quantum Hackathon
 
 > Problem Background
+
 Solving a linear system that grows in size becomes more difficult
 In reference to Carlos Bravo-Prietos' Variational Quantum Linear Algorithm Solver
 
 
-> Challenge Objectives 
+> Challenge Objectives
+
 The overall challenge is to reproduce the implementation of the quantum algorithm from Carlos Bravo-Prieto by solving the equation below and 
 
 1. correct cost function and quantum ansätze 
