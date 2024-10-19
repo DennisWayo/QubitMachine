@@ -33,20 +33,19 @@ We aimed at developing a quantum program that computes the equation involving Pa
 
 - The operator: 
 
-![wayo_check](https://latex.codecogs.com/svg.image?\bg{white}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
+![wayo_check](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
 
 Where: 
-• ![wayo2](https://latex.codecogs.com/svg.image?\bg{white}\hat{X}_i) acts on the i-th qubit. 
-• ![wayo3](https://latex.codecogs.com/svg.image?\bg{white}\hat{Z}j\hat{Z}{j&plus;1}) represents interactions between consecutive qubits. 
+• ![wayo2](https://latex.codecogs.com/svg.image?\bg{green}\hat{X}_i) acts on the i-th qubit. 
+• ![wayo3](https://latex.codecogs.com/svg.image?\bg{green}\hat{Z}j\hat{Z}{j&plus;1}) represents interactions between consecutive qubits. 
 
 2. Creating the Ansatz Using Classiq’s Interface: We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. 
 3. Define the Cost Function:
 To solve the equation, 
 
+![wayo4](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}\vec{x}=0), 
 
-![wayo4](https://latex.codecogs.com/svg.image?\bg{white}\mathbf{A}\vec{x}=0), 
-
-we minimized the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{white}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{white}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE).
+we minimized the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{green}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE).
 
 4. Run the Simulation:Execute the algorithm using a state-vector simulator. This was implemented to calculating the exact wavefunction which was ideal for prototyping before running on a real quantum device.
 5. CX-gate Count: We ensured the solution meets the challenge’s requirements, we also computed the number of CX gates used in the quantum circuit. This was done after generating the circuit.
