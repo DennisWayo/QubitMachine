@@ -1,8 +1,14 @@
 # QubitMachine
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Classiq IDE](https://img.shields.io/badge/Clasiq-IDE-red.svg)](https://github.com/DennisWayo/QubitMachine)
+[![Classiq IDE](https://img.shields.io/badge/Classiq-IDE-red.svg)](https://github.com/DennisWayo/QubitMachine)
 [![QC](https://img.shields.io/badge/QuantumComputing-QML-blue.svg)](https://github.com/DennisWayo/QubitMachine)
-[![QML](https://img.shields.io/badge/QML-VQLS-blue.svg)](https://github.com/DennisWayo/QubitMachine)
+[![algo](https://img.shields.io/badge/Algorithm-VQLS-blue.svg)](https://github.com/DennisWayo/QubitMachine)
+[![algo](https://img.shields.io/badge/Algorithm-SV-yellow.svg)](https://github.com/DennisWayo/QubitMachine)
+[![data](https://img.shields.io/badge/Datasets-yes-red.svg)](https://github.com/DennisWayo/QubitMachine)
+[![qml](https://img.shields.io/badge/QML-Validation-green.svg)](https://github.com/DennisWayo/QubitMachine)
+
+
+
 
 
 Welcome! to our Hackathon Quantum Machine Learning Track Challenge Provided by QPoland Global Quantum Hackathon
