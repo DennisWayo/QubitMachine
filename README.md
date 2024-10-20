@@ -27,7 +27,7 @@ Variational quantum linear solver stands out as a key development for harnessing
 ## Challenge 
 Quantum Machine Learning: Solving Linear Systems of Equations
 - Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver using Classiq software
-[![DOI;10.22331/q-2023-11-22-1188](https://zenodo.org/badge/DOI/10.22331/q-2023-11-22-1188.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+[![DOI;10.22331/q-2023-11-22-1188](https://doi.org/10.22331/q-2023-11-22-1188)](https://doi.org/10.1007/978-3-319-76207-4_15)
 
 
 
@@ -90,7 +90,8 @@ xxx
  - Paul Dirac
 
 ## Acknoledgement
-We We acknoledge the efforts of the orgaisers of QPoland Global Quantum Hackathon, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
+We acknoledge the efforts of the orgaisers of QPoland Global Quantum Hackathon, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
+[![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
