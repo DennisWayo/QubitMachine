@@ -1,7 +1,8 @@
 # QubitMachine
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Classiq IDE](https://img.shields.io/badge/Classiq-IDE%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Classiq SDK](https://img.shields.io/badge/ClassiqSDK%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Classiq IDE](https://img.shields.io/badge/Classiq%3F-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
+
+
 [![QML](https://img.shields.io/badge/QML-<blue>.svg)](https://shields.io/)
 [![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
 [![GitHub commits](https://badgen.net/github/commits/DennisWayo/QubitMachine](https://GitHub.com/DennisWayo/QubitMachine/commit/)
