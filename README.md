@@ -1,11 +1,10 @@
 # QubitMachine
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Classiq IDE](https://img.shields.io/badge/ClassiqIDE%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Classiq IDE](https://img.shields.io/badge/Classiq-IDE%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Classiq SDK](https://img.shields.io/badge/ClassiqSDK%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-
-[![QML](https://img.shields.io/badge/<QML>-<green>.svg)](https://shields.io/)
-
+[![QML](https://img.shields.io/badge/QML-<blue>.svg)](https://shields.io/)
 [![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+[![GitHub commits](https://badgen.net/github/commits/DennisWayo/QubitMachine](https://GitHub.com/DennisWayo/QubitMachine/commit/)
 [![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
 [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
 [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
