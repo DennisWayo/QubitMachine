@@ -11,7 +11,7 @@
 
 
 
-Welcome! to our **Hackathon Quantum Machine Learning Track Challenge** Provided by QPoland Global Quantum Hackathon
+Welcome! to our **Hackathon Quantum Machine Learning Track Challenge** Provided by QPoland Global Quantum Hackathon-2024
 
 ## Background
 
