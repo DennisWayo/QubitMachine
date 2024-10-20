@@ -3,9 +3,9 @@
 [![Classiq IDE](https://img.shields.io/badge/Classiq-IDE-red.svg)](https://github.com/DennisWayo/QubitMachine)
 [![QC](https://img.shields.io/badge/QuantumComputing-QML-blue.svg)](https://github.com/DennisWayo/QubitMachine)
 [![algo](https://img.shields.io/badge/Algorithm-VQLS-blue.svg)](https://github.com/DennisWayo/QubitMachine)
-[![algo](https://img.shields.io/badge/Algorithm-SV-yellow.svg)](https://github.com/DennisWayo/QubitMachine)
+[![algo](https://img.shields.io/badge/Algorithm-SV-blue.svg)](https://github.com/DennisWayo/QubitMachine)
 [![data](https://img.shields.io/badge/Datasets-yes-red.svg)](https://github.com/DennisWayo/QubitMachine)
-[![qml](https://img.shields.io/badge/QML-Validation-green.svg)](https://github.com/DennisWayo/QubitMachine)
+[![qml](https://img.shields.io/badge/QML-Validation-blue.svg)](https://github.com/DennisWayo/QubitMachine)
 
 
 
