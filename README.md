@@ -30,7 +30,7 @@ Quantum Machine Learning: Solving Linear Systems of Equations
 [![DOI;10.22331/q-2023-11-22-1188](https://doi.org/10.22331/q-2023-11-22-1188)](https://doi.org/10.1007/978-3-319-76207-4_15)
 
 
-
+[![DOI:10.22331/q-2023-11-22-1188](https://zenodo.org/badge/DOI/10.22331/q-2023-11-22-1188.svg)](https://doi.org/10.22331/q-2023-11-22-1188)
 
 ## Objectives
 
