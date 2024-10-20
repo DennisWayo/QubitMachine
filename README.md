@@ -1,6 +1,15 @@
 # QubitMachine
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Classiq](https://img.shields.io/badge/Classiq%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Classiq IDE](https://img.shields.io/badge/ClassiqIDE%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Classiq SDK](https://img.shields.io/badge/ClassiqSDK%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+[![QML](https://img.shields.io/badge/<QML>-<green>.svg)](https://shields.io/)
+
+[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
+
 
 
 Welcome! to our Hackathon Quantum Machine Learning Track Challenge Provided by QPoland Global Quantum Hackathon
@@ -19,7 +28,10 @@ Variational quantum linear solver stands out as a key development for harnessing
 ## Challenge 
 Quantum Machine Learning: Solving Linear Systems of Equations
 - Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver using Classiq software
-<https://quantum-journal.org/papers/q-2023-11-22-1188/>
+[![DOI;10.22331/q-2023-11-22-1188](https://zenodo.org/badge/DOI/10.22331/q-2023-11-22-1188.svg)](https://doi.org/10.1007/978-3-319-76207-4_15)
+
+
+
 
 ## Objectives
 
@@ -82,4 +94,4 @@ xxx
 We We acknoledge the efforts of the orgaisers of QPoland Global Quantum Hackathon, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
 
 ## License
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
