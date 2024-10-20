@@ -5,7 +5,7 @@
 [![algo](https://img.shields.io/badge/Algorithm-VQLS-blue.svg)](https://github.com/DennisWayo/QubitMachine)
 [![algo](https://img.shields.io/badge/Algorithm-SV-blue.svg)](https://github.com/DennisWayo/QubitMachine)
 [![data](https://img.shields.io/badge/Datasets-yes-red.svg)](https://github.com/DennisWayo/QubitMachine)
-[![qml](https://img.shields.io/badge/QML-Validation-blue.svg)](https://github.com/DennisWayo/QubitMachine)
+[![qml](https://img.shields.io/badge/QML-Validation-gold.svg)](https://github.com/DennisWayo/QubitMachine)
 
 
 
@@ -27,9 +27,6 @@ Variational quantum linear solver stands out as a key development for harnessing
 ## Challenge 
 Quantum Machine Learning: Solving Linear Systems of Equations
 - Remodel or reproduce Carlos Bravo-Prieto's Variational Quantum Linear Solver using Classiq software
-[![DOI;10.22331/q-2023-11-22-1188](https://doi.org/10.22331/q-2023-11-22-1188)](https://doi.org/10.1007/978-3-319-76207-4_15)
-
-
 [![DOI:10.22331/q-2023-11-22-1188](https://zenodo.org/badge/DOI/10.22331/q-2023-11-22-1188.svg)](https://doi.org/10.22331/q-2023-11-22-1188)
 
 ## Objectives
