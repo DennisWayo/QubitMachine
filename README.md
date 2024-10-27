@@ -165,7 +165,30 @@ Purpose: The main function allocates qubits for system_qubits (representing x) a
 
 Relation to Ax = b: In the main function, apply_operator_a is executed on system_qubits, encoding A into the circuit. This lets the system evolve under A, aiming to find a state x where Ax = b. The setup completes the structure to simulate and potentially measure a solution to the equation.
 
+## Run on Classiq IDE 
+#### Step 1
+Download "myvqls_qubitmachine.qmod" file 
 
+#### Step 2
+Signup or login into Classiq IDE 
+
+#### Step 3
+Navigate to 'New Model' in Classiq IDE
+
+#### Step 4
+Upload "myvqls_qubitmachine.qmod" file into the 'New Model' space
+
+#### Step 5
+Click on the Synthezise button
+
+#### Step 6
+Select "statevector simulation" and hit on the execute button 
+
+#### Step 7
+Find results shown as this;
+
+## Video Tutorial
+xxx
 
 ## Contributors
  - Dennis Wayo
