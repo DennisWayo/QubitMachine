@@ -37,9 +37,7 @@ We aimed at developing a quantum program that computes the equation involving Pa
 
 - The operator: 
 
-![wayo_check](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
-
-Where: 
+![wayo_check](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I}) Where: 
 
 • ![wayo2](https://latex.codecogs.com/svg.image?\bg{green}\hat{X}_i) acts on the i-th qubit. 
 
@@ -48,11 +46,7 @@ Where:
 2. Creating the Ansatz Using Classiq’s Interface: We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. [![classiq](https://img.shields.io/badge/Possible-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
 
 3. Define the Cost Function:
-To solve the equation, 
-
-![wayo4](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}\vec{x}=0), 
-
-we tried minimizing the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{green}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE). [![exe](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
+To solve the equation, ![wayo4](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}\vec{x}=0), we tried minimizing the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{green}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE). [![exe](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
 
 4. Run the Simulation: Execute the algorithm using a state-vector simulator. This was implemented to calculating the exact wavefunction which was ideal for prototyping before running on a real quantum device. [![exe](https://img.shields.io/badge/Possible-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
   
@@ -97,7 +91,7 @@ Purpose: The block encoding function performs the heart of a variational quantum
 
 Relation to ￼: This function orchestrates the solution by combining the ansatz (solution guess), the operator ￼, and the known vector ￼ within a quantum routine, setting up the quantum system to find an optimal solution for x.
 
-3. #### ax_b Function
+#### 3. ax_b Function
 
 ```python
 qfunc ax_b(output x: qbit[]) {
@@ -135,12 +129,14 @@ qfunc apply_operator_a(system_qubits: qbit[]) {
 Purpose: This function defines the matrix A as a combination of Pauli-X and ZZ interactions:
 
 	- Pauli-X Gates: These gates are applied across the qubits, which transforms the state to apply rotations or flips, embedding part of the operator’s structure.
+ 
 	- ZZ Interaction Terms: The two-qubit ZZ terms encode interactions between neighboring qubits. This effectively represents interaction terms in a Hamiltonian.
+ 
 	- Identity Operation: Applying an identity ensures no further state transformations, acting as a placeholder if needed.
 
 Relation to Ax = b: This function constructs the operator A as a combination of quantum gates. By encoding A￼with Pauli and ZZ terms, this quantum circuit is designed to represent the matrix A acting on the solution state x￼.
 
-** 5. main Function **
+#### 5. main Function
 
 ```python
 qfunc main(output system_qubits: qbit[], output ancillary_qubits: qbit[]) {
@@ -160,7 +156,7 @@ Purpose: The main function allocates qubits for system_qubits (representing x) a
 	- Allocates Qubits: Prepares system_qubits and ancillary_qubits, setting up the quantum circuit’s resources.
 	- Applies Operator A: The commented-out ax_b(system_qubits); would initialize the state for x, but here we focus on applying apply_operator_a, which represents the matrix A in Ax = b.
 
-Relation to ￼Ax = b: In the main function, apply_operator_a is executed on system_qubits, encoding A into the circuit. This lets the system evolve under A, aiming to find a state x where Ax = b. The setup completes the structure to simulate and potentially measure a solution to the equation.
+Relation to Ax = b: In the main function, apply_operator_a is executed on system_qubits, encoding A into the circuit. This lets the system evolve under A, aiming to find a state x where Ax = b. The setup completes the structure to simulate and potentially measure a solution to the equation.
 
 
 
