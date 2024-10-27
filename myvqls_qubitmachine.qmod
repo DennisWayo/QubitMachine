@@ -1,0 +1,52 @@
+// Quantum function to apply conditions for Ax = b
+qfunc apply_condition(index: int, qubit: qbit) {
+  if ((index % 2) == 0) {
+    X(qubit); // Apply Pauli-X gate if the index is even
+  }
+}
+
+// block encode
+qfunc block_encoding_vqls(ansatz: qfunc (), block_encoding: qfunc (), prepare_b_state: qfunc ()) {
+  ansatz();
+  block_encoding();
+  invert {
+    prepare_b_state();
+  }
+}
+
+// Quantum function to simulate Ax=b with a system of qubits
+qfunc ax_b(output x: qbit[]) {
+  allocate(10, x);  // Allocate qubits
+  repeat (index: x.len) {
+    apply_condition(index, x[index]);
+  }
+}
+
+// Quantum function for the operator 
+qfunc apply_operator_a(system_qubits: qbit[]) {
+  // Apply the sum of Pauli-X gates
+  repeat (i: 10) {
+    X(system_qubits[i]);
+  }
+
+  // Apply the sum of ZZ interaction terms
+  repeat (j: 9) {
+    Z(system_qubits[j]);
+    Z(system_qubits[j + 1]);
+  }
+
+  // Apply identity operation to the system
+  apply_to_all(IDENTITY, system_qubits);
+}
+
+// Main function to solve both equations
+qfunc main(output system_qubits: qbit[], output ancillary_qubits: qbit[]) {
+  allocate(10, system_qubits);
+  allocate(5, ancillary_qubits);
+
+  // Solve Ax = b
+  //ax_b(system_qubits);
+
+  // Apply the operator A as defined in the second equation
+  apply_operator_a(system_qubits);
+}
