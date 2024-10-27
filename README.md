@@ -182,7 +182,7 @@ Upload "myvqls_qubitmachine.qmod" file into the 'New Model' space andcClick on t
 Select "statevector simulation" and hit on the execute button, RESULTS will be shown.
 
 ## Video Tutorial
-xxx
+https://youtu.be/MqlKvtzFqKw
 
 ## Contributors
  - Dennis Wayo
