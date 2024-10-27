@@ -76,6 +76,7 @@ Relation to Ax = b: The function begins to initialize the qubits in a way that c
 
 2. block_encoding_vqls Function
 
+```python
 qfunc block_encoding_vqls(ansatz: qfunc (), block_encoding: qfunc (), prepare_b_state: qfunc ()) {
   ansatz();
   block_encoding();
@@ -83,6 +84,7 @@ qfunc block_encoding_vqls(ansatz: qfunc (), block_encoding: qfunc (), prepare_b_
     prepare_b_state();
   }
 }
+```
 
 Purpose: The block encoding function performs the heart of a variational quantum linear solver (VQLS) by applying three core steps:
 
