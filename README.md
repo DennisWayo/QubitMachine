@@ -109,9 +109,9 @@ qfunc ax_b(output x: qbit[]) {
 }
 ```
 
-Purpose: This function allocates qubits to represent the vector x￼and prepares each qubit according to the conditions specified in apply_condition. It initializes the system in a superposition that reflects potential solution states for x.
+Purpose: This function allocates qubits to represent the vector x and prepares each qubit according to the conditions specified in apply_condition. It initializes the system in a superposition that reflects potential solution states for x.
 
-Relation to Ax = b: By using apply_condition to initialize the x qubits, this function creates a base state that will interact with the block encoding of A. This interaction will ultimately allow the quantum algorithm to test whether the chosen￼x aligns with Ax = b.
+Relation to Ax = b: By using apply_condition to initialize the x qubits, this function creates a base state that will interact with the block encoding of A. This interaction will ultimately allow the quantum algorithm to test whether the chosen x aligns with Ax = b.
 
 #### 4. apply_operator_a Function
 
@@ -167,7 +167,9 @@ Relation to Ax = b: In the main function, apply_operator_a is executed on system
 
 ## Run on Classiq IDE 
 #### Step 1
-Download "myvqls_qubitmachine.qmod" file 
+Download "myvqls_qubitmachine.qmod" file from this qithub repository
+![step1](https://github.com/user-attachments/assets/7f36fb07-4b1f-436b-a8f8-c79dcb5760ed)
+
 
 #### Step 2
 Signup or login into Classiq IDE 
@@ -198,7 +200,7 @@ xxx
  - Paul Dirac
 
 ## Acknoledgement
-We acknoledge the efforts of the orgaisers of QPoland Global Quantum Hackathon, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
+We acknowledge the efforts of the organisers of QPoland Global Quantum Hackathon and Classiq, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
 [![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
 
 ## License
