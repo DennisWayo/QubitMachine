@@ -136,9 +136,7 @@ qfunc apply_operator_a(system_qubits: qbit[]) {
 Purpose: This function defines the matrix A as a combination of Pauli-X and ZZ interactions:
 
 	- Pauli-X Gates: These gates are applied across the qubits, which transforms the state to apply rotations or flips, embedding part of the operator’s structure.
- 
 	- ZZ Interaction Terms: The two-qubit ZZ terms encode interactions between neighboring qubits. This effectively represents interaction terms in a Hamiltonian.
- 
 	- Identity Operation: Applying an identity ensures no further state transformations, acting as a placeholder if needed.
 
 Relation to Ax = b: This function constructs the operator A as a combination of quantum gates. By encoding A￼with Pauli and ZZ terms, this quantum circuit is designed to represent the matrix A acting on the solution state x￼.
@@ -172,22 +170,18 @@ Download "myvqls_qubitmachine.qmod" file from this qithub repository
 
 
 #### Step 2
-Signup or login into Classiq IDE 
+Signup or login into Classiq IDE and navigate to 'New Model' 
+![step2](https://github.com/user-attachments/assets/d5ee1d2d-1df3-4616-9d58-b8a58a7e01f6)
 
 #### Step 3
-Navigate to 'New Model' in Classiq IDE
+Upload "myvqls_qubitmachine.qmod" file into the 'New Model' space andcClick on the 'Synthezise' button
+
+![step3](https://github.com/user-attachments/assets/f19736a1-a27c-4a82-b107-273135e80de9)
+
+
 
 #### Step 4
-Upload "myvqls_qubitmachine.qmod" file into the 'New Model' space
-
-#### Step 5
-Click on the Synthezise button
-
-#### Step 6
-Select "statevector simulation" and hit on the execute button 
-
-#### Step 7
-Find results shown as this;
+Select "statevector simulation" and hit on the execute button, RESULTS will be shown.
 
 ## Video Tutorial
 xxx
@@ -197,11 +191,10 @@ xxx
  - Sabarikirishwaran Ponnambalam
  - Meenashree Khanal
  - Bhasutkar
- - Paul Dirac
+ - Paul Dirac (not legal name of participant)
 
-## Acknoledgement
-We acknowledge the efforts of the organisers of QPoland Global Quantum Hackathon and Classiq, especially Dr Pawel Gora for the opportunity created to showcase our ideas.
-[![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
+## Acknowledgement
+We appreciate the hard work of the organizers of the QPoland Global Quantum Hackathon and Classiq, particularly Dr Pawel Gora, Adam Gitter, and Amrit Chhetri, for providing us with the chance to present our concepts. [![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
