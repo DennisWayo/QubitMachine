@@ -37,28 +37,27 @@ We aimed at developing a quantum program that computes the equation involving Pa
 
    We expressed the given operator (Pauli-X and Pauli-Z matrices) as part of the quantum ansatz. [![ansatz](https://img.shields.io/badge/Possible-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
 
-- The operator: ![wayo_check](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I}) 
+   The operator: ![wayo_check](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}=\sum_{i=1}^{10}\hat{X}i&plus;0.1\sum{j=1}^{9}\hat{Z}j\hat{Z}{j&plus;1}&plus;\mathbb{I})
 
-Where: 
-• ![wayo2](https://latex.codecogs.com/svg.image?\bg{green}\hat{X}_i) acts on the i-th qubit. 
+   Where:
+   • ![wayo2](https://latex.codecogs.com/svg.image?\bg{green}\hat{X}_i) acts on the i-th qubit.
+   • ![wayo3](https://latex.codecogs.com/svg.image?\bg{green}\hat{Z}j\hat{Z}{j&plus;1}) represents interactions between consecutive qubits. 
 
-• ![wayo3](https://latex.codecogs.com/svg.image?\bg{green}\hat{Z}j\hat{Z}{j&plus;1}) represents interactions between consecutive qubits. 
-
-2. Creating the Ansatz Using Classiq’s Interface:
+3. Creating the Ansatz Using Classiq’s Interface:
   
    We begun by defining the quantum circuit that matches this operator, utilizing Classiq to create a Hamiltonian that includes Pauli operators. [![classiq](https://img.shields.io/badge/Possible-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
 
-5. Define the Cost Function:
+4. Define the Cost Function:
 
-By solving the equation, ![wayo4](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}\vec{x}=0), we tried minimizing the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{green}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE). [![exe](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
+   By solving the equation, ![wayo4](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}\vec{x}=0), we tried minimizing the expectation value of ![wayo6](https://latex.codecogs.com/svg.image?\bg{green}\mathbf{A}) over a trial state ![aayo7](https://latex.codecogs.com/svg.image?\bg{green}\vec{x}). This forms the cost function of the variational quantum eigensolver (VQE). [![exe](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
 
-6. Run the Simulation:
-  
+5. Run the Simulation:
+
    Execute the algorithm using a state-vector simulator. This was implemented to calculating the exact wavefunction which was ideal for prototyping before running on a real quantum device. [![exe](https://img.shields.io/badge/Possible-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
-  
-9. CX-gate Count:
-   
-    We ensured the solution meets the challenge’s requirements, we also computed the number of CX gates used in the quantum circuit. This was done after generating the circuit. [![cx](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
+
+6. CX-gate Count:
+
+   We ensured the solution meets the challenge’s requirements, we also computed the number of CX gates used in the quantum circuit. This was done after generating the circuit. [![cx](https://img.shields.io/badge/Possible-no-red.svg)](https://github.com/DennisWayo/QubitMachine)
 
 ## Workable Qmod Solution: 
 [![qmod](https://img.shields.io/badge/QMODworks-yes-green.svg)](https://github.com/DennisWayo/QubitMachine)
@@ -95,9 +94,9 @@ Purpose: The block encoding function performs the heart of a variational quantum
 
 	- Ansatz: Prepares an initial state (guess) for the solution of x.
 	- Block Encoding: Encodes the operator A into the quantum state. This is a pivotal step because block encoding helps represent matrix operations on a quantum circuit, crucial for executing linear transformations like those represented by A.
-	- Prepare ￼b State Inverse: The inversion (or uncomputation) of the b-state preparation step essentially entangles and disentangles the solution space for correct measurement probabilities.
+	- Prepare b State Inverse: The inversion (or uncomputation) of the b-state preparation step essentially entangles and disentangles the solution space for correct measurement probabilities.
 
-Relation to ￼: This function orchestrates the solution by combining the ansatz (solution guess), the operator ￼, and the known vector ￼ within a quantum routine, setting up the quantum system to find an optimal solution for x.
+Relation to Ax = b: This function orchestrates the solution by combining the ansatz (solution guess), the operator A, and the known vector b within a quantum routine, setting up the quantum system to find an optimal solution for x.
 
 #### 3. ax_b Function
 
