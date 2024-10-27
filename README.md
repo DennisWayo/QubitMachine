@@ -139,7 +139,7 @@ Purpose: This function defines the matrix A as a combination of Pauli-X and ZZ i
 	- ZZ Interaction Terms: The two-qubit ZZ terms encode interactions between neighboring qubits. This effectively represents interaction terms in a Hamiltonian.
 	- Identity Operation: Applying an identity ensures no further state transformations, acting as a placeholder if needed.
 
-Relation to Ax = b: This function constructs the operator A as a combination of quantum gates. By encoding A￼with Pauli and ZZ terms, this quantum circuit is designed to represent the matrix A acting on the solution state x￼.
+Relation to Ax = b: This function constructs the operator A as a combination of quantum gates. By encoding A with Pauli and ZZ terms, this quantum circuit is designed to represent the matrix A acting on the solution state x.
 
 #### 5. main Function
 
@@ -177,8 +177,6 @@ Signup or login into Classiq IDE and navigate to 'New Model'
 Upload "myvqls_qubitmachine.qmod" file into the 'New Model' space andcClick on the 'Synthezise' button
 
 ![step3](https://github.com/user-attachments/assets/f19736a1-a27c-4a82-b107-273135e80de9)
-
-
 
 #### Step 4
 Select "statevector simulation" and hit on the execute button, RESULTS will be shown.
