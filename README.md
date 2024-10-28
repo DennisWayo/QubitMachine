@@ -192,7 +192,7 @@ https://youtu.be/MqlKvtzFqKw
  - Paul Dirac (not legal name of participant)
 
 ## Acknowledgement
-We appreciate the hard work of the organizers of the QPoland Global Quantum Hackathon and Classiq, particularly Dr Pawel Gora, Adam Gitter, and Amrit Chhetri, for providing us with the chance to present our concepts. [![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
+We appreciate the hard work of the organizers of the QPoland Global Quantum Hackathon and Classiq, particularly Pawel Gora, Adam Gitter, and Dr Amrit Chhetri, for providing us with the chance to present our concepts. [![thank](https://img.shields.io/badge/Thank-You-gold.svg)](https://github.com/DennisWayo/QubitMachine)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
